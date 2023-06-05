@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+nav {
+   display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0d0c0c;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+nav span {
+  font-weight: bold;
+}
+
+nav button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.todo-form {
+  margin-bottom: 20px;
+  
+}
+
+.todo-form input[type='text'],
+.todo-form input[type='date'] {
+  margin-right: 10px;
+  
+}
+
+.todo-form button {
+  margin-left: 10px;
+}
+
+.todo-list li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 480px;
+}
+
+.todo-list input[type='checkbox'] {
+  margin-right: 10px;
+}
+
+.todo-list .completed {
+  text-decoration: line-through;
+}
+
+.todo-list .update-btn,
+.todo-list .delete-btn,
+.todo-list .save-btn,
+.todo-list .cancel-btn {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+.todo-list .update-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.todo-list .delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.todo-list .save-btn {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.todo-list .cancel-btn {
+  background-color: #6c757d;
+  color: #fff;
+}
